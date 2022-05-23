@@ -1,4 +1,4 @@
-!!!  **The project is created inside in venv** !!!
+!!!  **The project is created inside a venv** !!!
 ___
 
 **Console input**:

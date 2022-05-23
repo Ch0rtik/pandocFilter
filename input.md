@@ -7,7 +7,7 @@ and the bold bald bear bled blood badly.
 
 ## Header Name
 
-Are you *bold*?
+Are you *bold*? Or bald?
 
 ### Other
 

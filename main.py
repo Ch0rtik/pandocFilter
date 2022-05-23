@@ -33,7 +33,7 @@ def action(elem: Header, doc):
             elem.walk(upper_str)
 
     if isinstance(elem, Str):
-        if "BOLD" in elem.text.upper() and elem.text.upper().count("BOLD") == 1:
+        if elem.text.upper().startswith("BOLD") and elem.text.upper().count("BOLD") == 1:
             bold_index = elem.text.upper().find("BOLD")
 
             after_text = elem.text[bold_index + 4:]  # in case of "bold?", "bold?" is one Str. "?" is an aftertext.

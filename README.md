@@ -1,6 +1,3 @@
-!!!  **The project is created inside a venv** !!!
-___
-
 **Console input**:
 
 <pre>
